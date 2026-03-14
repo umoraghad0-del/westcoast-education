@@ -184,4 +184,4 @@ ts/booking.test.ts
 
 Najma Hasan  project developed for educational purposes.
 
-WestCoast Education – Course Booking System.
+WestCoast Education.
