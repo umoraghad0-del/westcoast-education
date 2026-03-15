@@ -38,8 +38,7 @@ card.classList.add("courseCard");
 
 card.innerHTML = `
 
-<img src="${course.image}" alt="${course.title}">
-
+<img src="img/${course.image}" alt="${course.title}">
 <h3>${course.title}</h3>
 
 <p>${course.days} dagar | ${course.type}</p>

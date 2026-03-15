@@ -1,21 +1,16 @@
 const API_URL = "http://localhost:3000";
 
-
-// Hämta alla kurser
 export const getCourses = async () => {
   const res = await fetch(`${API_URL}/courses`);
   return res.json();
 };
 
 
-// Hämta en kurs
 export const getCourseById = async (id) => {
   const res = await fetch(`${API_URL}/courses/${id}`);
   return res.json();
 };
 
-
-// Lägg till kurs (ADMIN)
 export const addCourse = async (course) => {
 
   const res = await fetch(`${API_URL}/courses`, {
@@ -30,7 +25,6 @@ export const addCourse = async (course) => {
 };
 
 
-// Ta bort kurs (ADMIN)
 export const deleteCourse = async (id) => {
 
   await fetch(`${API_URL}/courses/${id}`, {
@@ -40,21 +34,19 @@ export const deleteCourse = async (id) => {
 };
 
 
-// Hämta användare
 export const getUsers = async () => {
   const res = await fetch(`${API_URL}/users`);
   return res.json();
 };
 
 
-// Hämta bokningar
+
 export const getBookings = async () => {
   const res = await fetch(`${API_URL}/bookings`);
   return res.json();
 };
 
 
-// Skapa bokning
 export const createBooking = async (booking) => {
 
   const res = await fetch(`${API_URL}/bookings`, {

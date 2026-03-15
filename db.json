@@ -6,7 +6,7 @@
       "courseNumber": "JS101",
       "days": 3,
       "price": 4500,
-      "image": "images/javascript.jpg",
+      "image":"javascript-grundkurs.png",
       "startDate": "2026-01-10",
       "type": "klassrum"
     },
@@ -16,7 +16,7 @@
       "courseNumber": "RE201",
       "days": 4,
       "price": 5500,
-      "image": "images/react.jpg",
+      "image": "react-utveckling.png",
       "startDate": "2026-02-05",
       "type": "distans"
     },
@@ -26,7 +26,7 @@
       "courseNumber": "ND301",
       "days": 3,
       "price": 5200,
-      "image": "images/node.jpg",
+      "image": "node-backend.png",
       "startDate": "2026-03-12",
       "type": "klassrum"
     },
@@ -36,7 +36,7 @@
       "courseNumber": "TS401",
       "days": 2,
       "price": 4000,
-      "image": "images/typescript.jpg",
+      "image": "typescript-for-utvecklare.png",
       "startDate": "2026-01-25",
       "type": "distans"
     },
@@ -46,7 +46,7 @@
       "courseNumber": "WC101",
       "days": 2,
       "price": 3500,
-      "image": "images/htmlcss.jpg",
+      "image": "html-css.png",
       "startDate": "2026-02-18",
       "type": "klassrum"
     }
