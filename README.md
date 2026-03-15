@@ -162,9 +162,9 @@ The application uses simple, readable JavaScript without unnecessary complexity.
 
 ---
 
-# VTypscript
+# Typscript
 
-To do better project I included this:
+I included this:
 
 - A **TypeScript module**
 - **Unit testing with Jest**
