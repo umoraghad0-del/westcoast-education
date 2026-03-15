@@ -1,50 +1,50 @@
-# WestCoast Education – Course Booking Application
-Course assignment project developed using Vanilla JavaScript, JSON Server and TypeScript.
+# WestCoast Education – Kursbokningsapplikation
+Projekt för kursuppgift utvecklat med Vanilla JavaScript, JSON Server och TypeScript.
 
-This project is a web application for **WestCoast Education**, where users can browse courses, view course details, and book courses online.
+Detta projekt är en webbaserad applikation för **WestCoast Education**, där användare kan bläddra bland kurser, se kursdetaljer och boka kurser online.
 
-The application is built using **Vanilla JavaScript**, **ES6 Modules**, and **JSON Server** as a REST API.
+Applikationen är byggd med **Vanilla JavaScript**, **ES6-moduler** och **JSON Server** som REST API.
 
-The project was developed as part of a web development course assignment.
+Projektet utvecklades som en del av en webbutvecklingskursuppgift.
 
 ---
 
-# Features
+# Funktioner
 
-## Public Users
-Users can:
+## Publika användare
+Användare kan:
 
-- View all available courses
-- View detailed information about a course
-- Register a new account
-- Log in to the system
-- Book a course
-- View their own bookings
+- Se alla tillgängliga kurser
+- Se detaljerad information om en kurs
+- Registrera ett nytt konto
+- Logga in i systemet
+- Boka en kurs
+- Se sina egna bokningar
 
 ---
 
 ## Admin
-Admin users can:
+Administratörer kan:
 
-- Add new courses
-- Delete courses
-- View all bookings
+- Lägga till nya kurser
+- Ta bort kurser
+- Se alla bokningar
 
 ---
 
-# Technologies Used
+# Använda teknologier
 
 - HTML5
 - CSS3
-- Vanilla JavaScript (ES6 Modules)
+- Vanilla JavaScript (ES6-moduler)
 - JSON Server (REST API)
-- LocalStorage for authentication
-- TypeScript (VG requirement)
-- Jest for testing (TDD)
+- LocalStorage för autentisering
+- TypeScript (VG-krav)
+- Jest för tester (TDD)
 
 ---
 
-# Project Structure
+# Projektstruktur
 westcoast-education
 │
 ├── css
@@ -79,109 +79,98 @@ westcoast-education
 │
 └── README.md
 
-
 ---
 
 # Installation
 
-Clone the repository or download the project.
+Klonas repositoryt eller ladda ner projektet.
 
-Then install dependencies:
+Installera sedan beroenden:
 npm install
 
-
 ---
 
-# Running the API
+# Starta API
 
-Start the JSON Server:
+Starta JSON Server:
 npm run start
 
-
-The API will run on:
+API:et körs på:
 http://localhost:3000
 
+Tillgängliga endpoints:
 
-Available endpoints:
-
-/courses
-/users
+/courses  
+/users  
 /bookings
 
-
 ---
 
-# Running Tests 
+# Köra tester
 
-This project includes a **TypeScript module tested with Jest using TDD principles**.
+Detta projekt inkluderar ett **TypeScript-modul testad med Jest enligt TDD-principer**.
 
-Run tests using:
+Kör tester med:
 npm test
 
-
-Example test output:
-PASS ts/booking.test.ts
+Exempel på testutdata:
+PASS ts/booking.test.ts  
 ✓ calculate booking price
 
+---
+
+# Exempel på användare
+
+Exempelanvändare i databasen:
+Email: kalle@westcoast.se  
+Lösenord: 123456
+
+Email: lisa@westcoast.se  
+Lösenord: 654321
 
 ---
 
-# Example Users
+# Flöde för kursbokning
 
-Example users available in the database:
-Email: kalle@westcoast.se
-Password: 123456
-
-Email: lisa@westcoast.se
-Password: 654321
-
+1. Användaren registrerar sig eller loggar in
+2. Användaren väljer en kurs
+3. Användaren fyller i bokningsinformation
+4. Bokningen sparas i JSON Server-databasen
+5. Användaren kan se bokningar under **Mina bokningar**
 
 ---
 
-# Course Booking Flow
+# Använda principer
 
-1. User registers or logs in
-2. User selects a course
-3. User fills in booking information
-4. Booking is stored in the JSON Server database
-5. User can view bookings on **My Bookings**
-
----
-
-# Principles Used
-
-The project follows these development principles:
+Projektet följer dessa utvecklingsprinciper:
 
 ### DRY – Don't Repeat Yourself
-API requests are centralized in:
+API-förfrågningar är centraliserade i:
 api.js
 
-
 ### KISS – Keep It Simple Stupid
-The application uses simple, readable JavaScript without unnecessary complexity.
+Applikationen använder enkel och lättläst JavaScript utan onödig komplexitet.
 
 ---
 
-# Typscript
+# TypeScript
 
-I included this:
+Jag inkluderade:
 
-- A **TypeScript module**
-- **Unit testing with Jest**
-- Development following **Test Driven Development (TDD)** principles.
+- A**TypeScript-modul**
+- **Enhetstester med Jest**
+- Utveckling enligt **Test Driven Development (TDD)** principer
 
-Example module:
+Exempel på modul:
 ts/booking.ts
 
-
-Example test:
+Exempel på test:
 ts/booking.test.ts
-
 
 ---
 
-# Author
+# Författare
 
-Najma Hasan  project developed for educational purposes.
+Najma Hasan – projekt utvecklat för utbildningssyfte.
 
-WestCoast Education.
+WestCoast Education
